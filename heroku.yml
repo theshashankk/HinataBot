@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python3 -m Hinata
+  worker: python3 -m Hinatabot
