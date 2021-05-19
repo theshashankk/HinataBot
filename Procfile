@@ -1,3 +1,3 @@
-worker: python3 -m Hinata
-web: python3 -m Hinata
+worker: python3 -m Hinatabot
+web: python3 -m Hinatabot
 ps:scale worker=1
