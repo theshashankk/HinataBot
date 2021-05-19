@@ -319,7 +319,7 @@ def export_data(update, context):
         },
     }
     baccinfo = json.dumps(backup, indent=4)
-    f = open("LaylaRobot{}.backup".format(chat_id), "w")
+    f = open("Hinatabot{}.backup".format(chat_id), "w")
     f.write(str(baccinfo))
     f.close()
     context.bot.sendChatAction(current_chat_id, "upload_document")
@@ -342,7 +342,7 @@ def export_data(update, context):
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("LaylaRobot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("Hinatabot{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
