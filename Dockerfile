@@ -77,11 +77,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/LaylaRobot
-RUN git clone -b shiken https://github.com/theshashankk/HinataBot /root/Hinata
-WORKDIR /root/Hinata
+RUN git clone -b shiken https://github.com/theshashankk/HinataBot /root/Hinatabot
+WORKDIR /root/Hinatabot
 
 #henata bot
-COPY ./LaylaRobot/sample_config.py ./hinata/config.py* /root/HinataBot/Hinata/
+COPY ./LaylaRobot/sample_config.py ./hinatabot/config.py* /root/HinataBot/Hinatabot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -89,7 +89,7 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Hinata"]
+CMD ["python3","-m","Hinatabot"]
 
     bzip2 \
     curl \
