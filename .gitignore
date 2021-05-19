@@ -1,18 +1,24 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+Hinata/config.py
+Hinata/*.session
+Hinata/*.session-journal
+Hinata/config.ini
+log.txt
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
+LaylaRobot/modules/helper_funcs/temp.txt
+LaylaRobot/elevated_users.json
+start-3.6.bat
+*.session
+kangsticker.png
+venv
+env
+saitama.session-journal
+updates.txt
+*.exe
 
-# Other files and folders
-.settings/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
