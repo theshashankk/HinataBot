@@ -6,7 +6,7 @@ import Hinatabot.modules.sql.chatbot_sql as sql
 from coffeehouse.api import API
 from coffeehouse.exception import CoffeeHouseError as CFError
 from coffeehouse.lydia import LydiaAI
-from Hinataot import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
+from Hinatabot import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
 from Hinatabot.modules.helper_funcs.chat_status import user_admin
 from Hinatabot.modules.helper_funcs.filters import CustomFilters
 from Hinatabot.modules.log_channel import gloggable
