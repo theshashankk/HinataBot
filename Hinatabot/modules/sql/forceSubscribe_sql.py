@@ -16,7 +16,7 @@
 
 from sqlalchemy import Column, Numeric, String
 
-from LaylaRobot.modules.sql import BASE, SESSION
+from Hinatabot.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):
