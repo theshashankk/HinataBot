@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from LaylaRobot.modules.sql import SESSION, BASE
+from Hinatabot.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
