@@ -2,7 +2,7 @@ import requests
 import bs4 
 import re
 from telethon import *
-from Hinatabot.Hinatabot import hinata
+from HinataBot.Hinatabot import hinata
 
 
 async def is_register_admin(chat, user):
