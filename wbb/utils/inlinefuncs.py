@@ -72,16 +72,16 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
             ),
-            thumb_url="https://hamker.me/cy00x5x.png",
+            thumb_url="https://camo.githubusercontent.com/a8ca5d18d61bfdd4112d53657f6edc0e78d4d674f2f633b4e86d685c74a662d7/68747470733a2f2f74656c656772612e70682f66696c652f6362313938346432393861383635363166393864642e6a7067",
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Github Repo",
-            description="Get Github Respository Of Bot.",
+            title=" 🚑 Support Group 🚑",
+            description="if you will see any type of error that contact us in @CoffinXsupport",
             input_message_content=InputTextMessageContent(
-                "https://github.com/thehamkercat/WilliamButcherBot"
+                "https://t.me/CoffinXsupport"
             ),
-            thumb_url="https://hamker.me/gjc9fo3.png",
+            thumb_url="https://camo.githubusercontent.com/a8ca5d18d61bfdd4112d53657f6edc0e78d4d674f2f633b4e86d685c74a662d7/68747470733a2f2f74656c656772612e70682f66696c652f6362313938346432393861383635363166393864642e6a7067",
         ),
     ]
     answerss = await alive_function(answerss)
@@ -100,20 +100,20 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[William✨](https://github.com/thehamkercat/WilliamButcherBot):**
-**MainBot:** `{bot_state}`
-**UserBot:** `{ubot_state}`
-**Python:** `{pyver.split()[0]}`
-**Pyrogram:** `{pyrover}`
-**MongoDB:** `{mongover}`
-**Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/{USERBOT_USERNAME})
+**[𝙷𝙸𝙽𝙰𝚃𝙰 𝙱𝙾𝚃✨](t.me/coffinxsupport):**
+**𝙼𝙰𝙸𝙽 𝙱𝙾𝚃:** `{bot_state}`
+**𝚄𝚂𝙴𝚁𝙱𝙾𝚃:** `{ubot_state}`
+**𝙿𝚈𝚃𝙷𝙾𝙽:** `{pyver.split()[0]}`
+**𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼:** `{pyrover}`
+**𝙼𝙾𝙽𝙶𝙾 𝙳𝙱:** `{mongover}`
+**𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼:** `{sys.platform}`
+**𝙿𝚁𝙾𝙵𝙸𝙻𝙴𝚂:** [𝙱𝙾𝚃](t.me/{BOT_USERNAME}) | [𝚄𝚂𝙴𝚁𝙱𝙾𝚃](t.me/{USERBOT_USERNAME})
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://static2.aniimg.com/upload/20170515/414/c/d/7/cd7EEF.jpg",
+            thumb_url="https://camo.githubusercontent.com/a8ca5d18d61bfdd4112d53657f6edc0e78d4d674f2f633b4e86d685c74a662d7/68747470733a2f2f74656c656772612e70682f66696c652f6362313938346432393861383635363166393864642e6a7067",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
