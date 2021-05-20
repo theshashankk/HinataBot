@@ -19,7 +19,7 @@ if is_module_loaded(FILENAME):
 
     from Hinatabot.modules.helper_funcs.chat_status import (
         connection_status, is_user_admin, user_admin)
-    from LaylaRobot.modules.sql import disable_sql as sql
+    from Hinatabot.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
     DISABLE_CMDS = []
