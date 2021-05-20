@@ -3,18 +3,18 @@ import json
 import os
 from typing import Optional
 
-from Hinatabot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
+from Hentaibot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
                           TIGERS, WOLVES, dispatcher)
-from Hinatabot.modules.helper_funcs.chat_status import (dev_plus, sudo_plus,
+from Hentaibot.modules.helper_funcs.chat_status import (dev_plus, sudo_plus,
                                                            whitelist_plus)
-from Hinatabot.modules.helper_funcs.extraction import extract_user
-from Hinatabot.modules.log_channel import gloggable
+from Hentaibot.modules.helper_funcs.extraction import extract_user
+from Hentaibot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(),
-                                   'Hinatabot/elevated_users.json')
+                                   'Hentaibot/elevated_users.json')
 
 
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:
