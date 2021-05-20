@@ -4,6 +4,7 @@ from wbb import
 """
 fuck off kanger 
 """
+
 from wbb.helper_functions.cust_p_filters import f_onw_fliter
 
 @Client.on_message(filters.command("ping", COMMAND_HAND_LER) & f_onw_fliter)
