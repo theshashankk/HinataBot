@@ -55,13 +55,14 @@ async def bot_sys_stats():
     disk = psutil.disk_usage("/").percent
     process = psutil.Process(os.getpid())
     stats = f"""
-{USERBOT_USERNAME}@William
+𝙃𝙄𝙉𝘼𝙏𝘼 𝘽𝙊𝙏
 ------------------
-UPTIME: {formatter.get_readable_time((bot_uptime))}
-BOT: {round(process.memory_info()[0] / 1024 ** 2)} MB
-CPU: {cpu}%
-RAM: {mem}%
-DISK: {disk}%
+𝙷𝙸𝙽𝙰𝚃𝙰 𝚄𝙿𝚃𝙸𝙼𝙴: {formatter.get_readable_time((bot_uptime))}
+𝙱𝙾𝚃: {round(process.memory_info()[0] / 1024 ** 2)} MB
+𝙲𝙿𝚄: {cpu}%
+𝚁𝙰𝙼: {mem}%
+𝙳𝙸𝚂𝙺: {disk}%
+𝙰 𝙱𝙾𝚃 𝙱𝚈 𝚃𝙴𝙰𝙼 𝙲𝙾𝙵𝙵𝙸𝙽 👨‍💻
 """
     return stats
 
