@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from LaylaRobot.modules.sql import BASE, SESSION
+from Hinatabot.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):
