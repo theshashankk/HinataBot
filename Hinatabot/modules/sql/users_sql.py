@@ -1,6 +1,6 @@
 import threading
 
-from LaylaRobot import dispatcher
+from Hinatabot import dispatcher
 from LaylaRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (Column, ForeignKey, Integer, String, UnicodeText,
                         UniqueConstraint, func)
