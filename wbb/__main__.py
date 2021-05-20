@@ -101,8 +101,9 @@ async def help_command(_, message):
             ],
         ]
     )
-SAITAMA_IMG = "https://camo.githubusercontent.com/a8ca5d18d61bfdd4112d53657f6edc0e78d4d674f2f633b4e86d685c74a662d7/68747470733a2f2f74656c656772612e70682f66696c652f6362313938346432393861383635363166393864642e6a7067"    
-        f"YOO!!! MY NAME IS {BOT_NAME} \nI HAVE AWESOME FEATURES TO MANAGE UR GROUP",
+    await message.reply(
+        f"𝐘𝐎𝐎!! 𝐈'𝐌 𝐇𝐈𝐍𝐀𝐓𝐀 \n𝐈'𝐌 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐌𝐀𝐍𝐀𝐆𝐄 𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 \n𝐈 𝐇𝐀𝐕𝐄 𝐌𝐀𝐍𝐘 𝐀𝐖𝐄𝐒𝐎𝐌𝐄 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐓𝐎 𝐀𝐌𝐀𝐙𝐄 𝐘𝐎𝐔 💞",
+       
         reply_markup=keyboard,
     )
 
