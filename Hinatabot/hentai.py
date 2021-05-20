@@ -2,7 +2,7 @@ from Hinatabot import telethn
 from telethon import events
 
 
-def layla(**args):
+def hinata(**args):
     """New message."""
     pattern = args.get('pattern', None)
     r_pattern = r'^[/!]'
