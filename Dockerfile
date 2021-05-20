@@ -64,11 +64,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/SaitamaRobot
-RUN git clone -b shiken https://github.com/theshashankk/HinataBot /root/Hinatabot
-WORKDIR /root/Hinatabot
+RUN git clone -b shiken https://github.com/theshashankk/HinataBot /root/HinataBot
+WORKDIR /root/HinataBot
 
 #Copy config file to /root/SaitamaRobot/SaitamaRobot
-COPY ./SaitamaRobot/sample_config.py ./Hinatabot/config.py* /root/Hinatabot/Hinatabot/
+COPY ./Hinatabot/sample_config.py ./Hinatabot/config.py* /root/HinataBot/Hinatabot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
