@@ -29,5 +29,13 @@ $ npm i -g npm
 # Start Bot 
 $ python(3) -m Hinatabot
 ```
+<details>
+    <summary>&#127942 <b>Credits</b></summary><br/>
 
+- [Queen Arzoo](https://github.com/QueenArzoo)
+- [Saitama Bot](https://github.com/AnimeKaizoku/SaitamaRobot)
+- [PaulSonOfLars](https://github.com/PaulSonOfLars)
+- [ShashankxD](https://github.com/Theshashankk)
+
+</details
 
