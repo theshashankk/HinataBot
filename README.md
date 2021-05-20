@@ -29,13 +29,8 @@ $ npm i -g npm
 # Start Bot 
 $ python(3) -m Hinatabot
 ```
-<details>
-    <summary>&#127942 <b>Credits</b></summary><br/>
+## CREDITS
 
-- [Queen Arzoo](https://github.com/QueenArzoo)
-- [Saitama Bot](https://github.com/AnimeKaizoku/SaitamaRobot)
-- [PaulSonOfLars](https://github.com/PaulSonOfLars)
-- [ShashankxD](https://github.com/Theshashankk)
-
-</details
-
+#### • 𝚀𝚄𝙴𝙴𝙽 𝙰𝚁𝚉𝙾𝙾   »»  <a href="https://github.com/QueenArzoo" alt="Queen Arzoo"> <img src="https://img.shields.io/badge/QueenArzoo-800080?logo=github" /></a> 
+#### • 𝚂𝙰𝙸𝚃𝙰𝙼𝙰 𝙱𝙾𝚃   »»  <a href="https://github.com/AnimeKaizoku/SaitamaRobot" alt="SAITAMA BOT"> <img src="https://img.shields.io/badge/Saitama Bot-000000?logo=github" /></a> 
+#### • 𝙿𝙰𝚄𝙻 𝚂𝙾𝙽 𝙾𝙵 𝙻𝙰𝚁𝚂  »»  <a href="https://github.com/PaulSonOfLars" alt="PaulSonOflars"> <img src="https://img.shields.io/badge/PaulSonOfLars-000000?logo=github" /></a> 
