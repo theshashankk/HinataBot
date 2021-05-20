@@ -80,7 +80,7 @@ async def help_command(_, message):
         [
             [
                 InlineKeyboardButton(
-                    text="Commands 👨‍💻, callback_data="bot_commands"
+                    text="Commands 👨‍💻", callback_data="bot_commands"
                 ),
                 InlineKeyboardButton(
                     text="🚑 Support Group 🚑",
