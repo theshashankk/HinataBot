@@ -69,7 +69,7 @@ async def help_command(_, message):
                         text="Hinata stats", callback_data="stats_callback"
                     ),
                     InlineKeyboardButton(
-                        text="📔 Logs", url="t.me/Hinata_Log"
+                        text="📔 Logs", url="t.me/HinataLogs"
                     ),
                 ],
             ]
