@@ -10,8 +10,8 @@ log.txt
 .pydevproject
 .directory
 .vscode
-LaylaRobot/modules/helper_funcs/temp.txt
-LaylaRobot/elevated_users.json
+Hinatabot/modules/helper_funcs/temp.txt
+Hinatabot/elevated_users.json
 start-3.6.bat
 *.session
 kangsticker.png
