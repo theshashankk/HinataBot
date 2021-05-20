@@ -1,5 +1,6 @@
 # HinataBot
-![Hinata RoBoT](https://telegra.ph/file/cb1984d298a86561f98dd.jpg)
+![Hinata RoBoT](https://user-images.githubusercontent.com/78837537/119028050-a5200600-b9c4-11eb-8987-76fdeae6aa5e.jpg)
+
 
 
 </p>
