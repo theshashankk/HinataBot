@@ -6,7 +6,7 @@ import re
 import subprocess
 import time
 from datetime import datetime
-from Hinatabot.laylabot import hinata
+from HinataBot.Hinatabot import hinata
 from Hinatabott import LOGGER
 from telethon import types
 from telethon.tl import functions
@@ -32,7 +32,7 @@ async def is_register_admin(chat, user):
     else:
         return None
 
-@layla(pattern="^/imdb (.*)") 
+@Hinata(pattern="^/imdb (.*)") 
 async def imdb(e):
  if e.is_group:
   if not (await is_register_admin(e.input_chat, e.message.sender_id)):
