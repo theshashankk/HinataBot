@@ -53,8 +53,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Yoo!! {sender.user,mention}
-I'm Ur Group security Guard..
-with many awesome features..💖
+I'm Ur Group security Bot...
+I have many awesome feature for you 💞
 """
 
 HELP_STRINGS = """
@@ -75,7 +75,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
+SAITAMA_IMG = "https://camo.githubusercontent.com/a8ca5d18d61bfdd4112d53657f6edc0e78d4d674f2f633b4e86d685c74a662d7/68747470733a2f2f74656c656772612e70682f66696c652f6362313938346432393861383635363166393864642e6a7067"
 
 DONATE_STRING = """No Need To Donate \n** Just Keep supporting us 🙂"""
 
@@ -193,25 +193,19 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[
-                        InlineKeyboardButton(
-                            text="Take Me to Your Group 🧒",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
-                    ],
-                     [
-                         InlineKeyboardButton(
-                             text="🚑 Support Group 🚑",
-                             url=f"https://t.me/Coffinxsupport"),
-                         InlineKeyboardButton(
-                             text=" updates channel ",
-                             url="https://t.me/LaylaLogs")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
-                     ]]))
+    [
+        InlineKeyboardButton(text="🚑 Support 🚑", url="https://t.me/studyboyzandgirls"),
+        InlineKeyboardButton(text="💁 Help", callback_data="help_back"),
+    ],
+    [
+        InlineKeyboardButton(text="Ping", callback_data="ping_back"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add me to your group ➕", url="t.me/Hinata_ProBoT?startgroup=true"
+        ),
+    ],
+]
     else:
         update.effective_message.reply_text(
             "Yooo!! i'm online\n<b>Up since:</b> <code>{}</code>".format(uptime),
@@ -255,13 +249,14 @@ def help_button(update, context):
     prev_match = re.match(r"help_prev\((.+?)\)", query.data)
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
+    back_match = re.march(r"ping_back", query.data)              
 
     print(query.message.chat.id)
 
     try:
         if mod_match:
             module = mod_match.group(1)
-            text = ("**Here is the help menu of {bot.username}** 🆘:\n".format(
+            text = ("**Here is the help menu of {}** 🆘:\n".format(
                 HELPABLE[module].__mod_name__) + HELPABLE[module].__help__)
             query.message.edit_text(
                 text=text,
