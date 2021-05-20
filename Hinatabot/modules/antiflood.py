@@ -4,7 +4,7 @@ from typing import Optional, List
 from telegram import Message, Chat, Update, Bot, User, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, ChatPermissions
 
 from Hinatabot import TIGERS, WOLVES, dispatcher
-from HinataRobot.modules.helper_funcs.chat_status import (
+from Hinatabot.modules.helper_funcs.chat_status import (
     bot_admin, can_restrict, connection_status, is_user_admin, user_admin,
     user_admin_no_reply)
 from Hinatabot.modules.log_channel import loggable
