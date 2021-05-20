@@ -3,7 +3,7 @@ from typing import List
 
 import requests
 from Hinatabot import TIME_API_KEY
-from Hinatabot.laylabot import layla
+from HinataBot.Hinatabot import hinata
 from telethon import types
 from telethon.tl import functions
 
