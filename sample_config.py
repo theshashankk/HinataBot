@@ -1,4 +1,4 @@
-HEROKU = True  # NOTE Make it false if you're not deploying on heroku.
+HEROKU = True 
 
 if HEROKU:
     from os import environ
