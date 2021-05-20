@@ -79,7 +79,7 @@ async def kang(client, message):
     ):
         sticker_emoji = message.reply_to_message.sticker.emoji
     else:
-        sticker_emoji = "🤔"
+        sticker_emoji = "💜"
 
     # Get the corresponding fileid, resize the file if necessary
     doc = message.reply_to_message.photo or message.reply_to_message.document
@@ -125,7 +125,7 @@ async def kang(client, message):
                 stickerset = await create_sticker_set(
                     client,
                     message.from_user.id,
-                    f"{message.from_user.first_name[:32]}'s kang pack",
+                    f"{message.from_user.first_name[:32]}'s Hinata kang pack",
                     packname,
                     [sticker],
                 )
@@ -145,7 +145,7 @@ async def kang(client, message):
             break
 
         await msg.edit(
-            "Sticker Kanged To [Pack](t.me/addstickers/{})\nEmoji: {}".format(
+            " Sticker Kanged To [Pack](t.me/addstickers/{})\nEmoji: {}".format(
                 packname, sticker_emoji
             )
         )
