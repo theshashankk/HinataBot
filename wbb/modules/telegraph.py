@@ -28,7 +28,7 @@ async def tgphoto(client, message):
     if not message.reply_to_message.photo:
         await message.reply_text("Works only for Photos")
         return
-    msg = await message.reply_text("`Uploading to Telegraph...`")
+    msg = await message.reply_text("`wait lemme Upload to Telegraph...`")
     userid = str(message.chat.id)
     path = f"./DOWNLOADS/{userid}.jpg"
     path = await client.download_media(
@@ -55,7 +55,7 @@ async def tgvideo(client, message):
         await message.reply_text("Works only for Videos")
         return
     if message.video.file_size < 5242880:
-        msg = await message.reply_text("Uploading to Telegraph...")
+        msg = await message.reply_text("wait lemme Upload to Telegraph...")
         userid = str(message.chat.id)
         vid_path = f"./DOWNLOADS/{userid}.mp4"
         vid_path = await client.download_media(
