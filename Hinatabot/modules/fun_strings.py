@@ -298,4 +298,5 @@ TOSS = (
 
 DECIDE = ("Yes.", "No.", "Maybe.")
 
-TABLE = ("(╯°□°）╯彡 ┻━┻", "I ran out of tables, wil
+TABLE = ("(╯°□°）╯彡 ┻━┻", "I ran out of tables, wil.",
+         "Go do some work instead of flippin tables.")
