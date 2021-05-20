@@ -56,7 +56,7 @@ async def help_command(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Help ⁉️,
+                        text="Help ⁉️",
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
