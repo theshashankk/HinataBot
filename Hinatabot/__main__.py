@@ -193,19 +193,25 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-    [
-        InlineKeyboardButton(text="🚑 Support 🚑", url="https://t.me/studyboyzandgirls"),
-        InlineKeyboardButton(text="💁 Help", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="Ping", callback_data="ping_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➕ Add me to your group ➕", url="t.me/Hinata_ProBoT?startgroup=true"
-        ),
-    ],
-]
+                    [[
+                        InlineKeyboardButton(
+                            text="Take Me To Your Group",
+                            url="t.me/{}?startgroup=true".format(
+                                context.bot.username))
+                    ],
+                     [
+                         InlineKeyboardButton(
+                             text="Support Group",
+                             url=f"https://t.me/CoffinXsupport"),
+                         InlineKeyboardButton(
+                             text="📘 Logs",
+                             url="https://t.me/Hinatalogs")
+                     ],
+                     [
+                         InlineKeyboardButton(
+                             text="💁 Help",
+                             call_back="help_back")
+                     ]]))
     else:
         update.effective_message.reply_text(
             "Yooo!! i'm online\n<b>Up since:</b> <code>{}</code>".format(uptime),
