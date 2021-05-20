@@ -12,7 +12,7 @@ from youtube_dl.utils import (DownloadError, ContentTooShortError,
 
 from telethon import types
 from telethon.tl import functions
-from Hinatabot.Hinatabot import hinata
+from HinataBot.Hinatabot import hinata
 from youtubesearchpython import SearchVideos
 from tswift import Song
 
@@ -42,7 +42,7 @@ JULIASONG = "@MissJuliaRobotMP3"
 JULIAVSONG = "@MissJuliaRobotMP4"
 
 
-@layla(pattern="^/lyrics ?(.*)")
+@hinata(pattern="^/lyrics ?(.*)")
 async def download_lyrics(v_url):
     if v_url.is_group:
         if (await is_register_admin(v_url.input_chat, v_url.message.sender_id)):
