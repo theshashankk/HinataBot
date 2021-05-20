@@ -56,7 +56,7 @@ def generate_time(to_find: str, findtype: List[str]) -> str:
 
     return result
 
-@layla(pattern="^/datetime")
+@hinata(pattern="^/datetime")
 async def _(event):
     if event.fwd_from:
         return
