@@ -102,7 +102,7 @@ async def help_command(_, message):
         ]
     )
     await message.reply(
-        f"𝐘𝐎𝐎!! 𝐈'𝐌 𝐇𝐈𝐍𝐀𝐓𝐀 \n𝐈'𝐌 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐌𝐀𝐍𝐀𝐆𝐄 𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 \n𝐈 𝐇𝐀𝐕𝐄 𝐌𝐀𝐍𝐘 𝐀𝐖𝐄𝐒𝐎𝐌𝐄 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐓𝐎 𝐀𝐌𝐀𝐙𝐄 𝐘𝐎𝐔 💞",
+        f"𝐘𝐎𝐎!! 𝐈'𝐌 𝐇𝐈𝐍𝐀𝐓𝐀 \n𝐈'𝐌 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐌𝐀𝐍𝐀𝐆𝐄 𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 \n𝐈 𝐇𝐀𝐕𝐄 𝐌𝐀𝐍𝐘 𝐀𝐖𝐄𝐒𝐎𝐌𝐄 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐓𝐎 𝐀𝐌𝐀𝐙𝐄 𝐘𝐎𝐔 [💞](https://telegra.ph/file/8b3f98a96b83601ed9331.jpg)",
         reply_markup=keyboard,
     )
 
@@ -113,7 +113,7 @@ async def help_parser(name, keyboard=None):
     return (
         """Yoo!! {first_name}
 I'm {bot_name} An Group security Bot...
-I have many awesome feature for you 💞""".format(
+I have many awesome feature for you [💞](https://telegra.ph/file/8b3f98a96b83601ed9331.jpg)""".format(
             first_name=name,
             bot_name=BOT_NAME,
         ),
