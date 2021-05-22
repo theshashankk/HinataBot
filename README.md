@@ -1,37 +1,33 @@
-# HinataBot
-![Hinata RoBoT](https://user-images.githubusercontent.com/78837537/119028050-a5200600-b9c4-11eb-8987-76fdeae6aa5e.jpg)
-
-
-
+<p align="center">
+    <a href="https://github.com/MdNoor786/ShasaBot-1/stargazers"><img src="https://img.shields.io/github/stars/MdNoor786/ShasaBot-1?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/TheShashankk/HinataBot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/theshashankk/HinataBot"> <img src="https://img.shields.io/github/repo-size/theshashankk/Hinatabot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/theshashankk/HinataBot/commits/theshashankk"> <img src="https://img.shields.io/github/last-commit/theshashankk/Hinatabot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/theshashankk/HinataBot/issues"> <img src="https://img.shields.io/github/issues/theshashankk/Hinatabot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/theshashankk/HinataBot/network/members"> <img src="https://img.shields.io/github/forks/theshashankk/Hinatabot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/telethon"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=Telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://app.codacy.com/manual/MdNoor786/ShasaBot-1/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1"> <img src="https://img.shields.io/github/repo-size/MdNoor786/ShasaBot-1?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/commits/prince"> <img src="https://img.shields.io/github/last-commit/MdNoor786/ShasaBot-1?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/issues"> <img src="https://img.shields.io/github/issues/MdNoor786/ShasaBot-1?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/network/members"> <img src="https://img.shields.io/github/forks/MdNoor786/ShasaBot-1?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-## ɦօա ȶօ ɦօֆȶ ɮօȶ
+<p align="center">
+  <img src="https://telegra.ph/file/95a4e9bf8860446c7d150.jpg">
+</p>
+
+# 𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼
+Me On Telegram [✨𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼✨](https://t.me/MISS_KRISTINA_BOT)
+
+## How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/theshashankk/Hinatabot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-BOT-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-## Sᴇʟғ Hᴏsᴛ (Fᴏʀ Dᴇᴠ)
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/xdipesh/Miss_Kristina"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+ 
+CREDITS
 ```
-# Install Git First (apt-instll git)
-$ git clone https://github.com/Theshashankk/Hinatabot
-$ cd Hinatabot
-# Upgrade sources
-# Install All Requirements 
-$ pip(3) install -r requirements.txt
-# Rename example.env to local.env and fill
-$ npm i -g npm
-# Start Bot 
-$ python(3) -m Hinatabot
-```
-## CREDITS
+❤️ MashaRobot = Dark Prince
+💜 YoneRobot. = Kittu 
+🔥Miss Shasha = Md Noor
 
-#### • 𝚀𝚄𝙴𝙴𝙽 𝙰𝚁𝚉𝙾𝙾   »»  <a href="https://github.com/QueenArzoo" alt="Queen Arzoo"> <img src="https://img.shields.io/badge/QueenArzoo-800080?logo=github" /></a> 
-#### • 𝚂𝙰𝙸𝚃𝙰𝙼𝙰 𝙱𝙾𝚃   »»  <a href="https://github.com/AnimeKaizoku/SaitamaRobot" alt="SAITAMA BOT"> <img src="https://img.shields.io/badge/Saitama Bot-000000?logo=github" /></a> 
-#### • 𝙿𝙰𝚄𝙻 𝚂𝙾𝙽 𝙾𝙵 𝙻𝙰𝚁𝚂  »»  <a href="https://github.com/PaulSonOfLars" alt="PaulSonOflars"> <img src="https://img.shields.io/badge/PaulSonOfLars-000000?logo=github" /></a> 
+
+
+
+```
