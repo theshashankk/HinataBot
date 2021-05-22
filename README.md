@@ -1,4 +1,4 @@
-###### ɴᴏᴛᴇ :- ᴅᴏɴ'ᴛ ᴅᴇᴘʟᴏʏ ɴᴏᴡ ʙᴏᴛ ɪs ɪɴᴄᴏᴍᴘʟᴇᴛᴇ :-/
+![hinata](https://img.shields.io/badge/Hinata%20Is%20Under%20development-blue?style=for-the-badge&logo=python)
 
 [![GitHub issues](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/issues)
 [![GitHub Fork](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/fork)
