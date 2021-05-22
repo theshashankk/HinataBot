@@ -1,5 +1,5 @@
 {
-      "name": "Shasa Bot",
+      "name": "Hinata Bot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/c3254e92e7672b773f942.jpg",  
-   "repository": "https://github.com/xdipesh/Miss_Kristina",
+   "repository": "https://github.com/theshashankk/HinataBot",
    "addons": [
           {
          "options": {
@@ -60,12 +60,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Simpleboy786"
+         "value": "shashank_xxD"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "missShasa_Gbot"
+         "value": "CoffinXsupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -175,7 +175,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "t.me/shashank_xxD"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
