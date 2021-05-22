@@ -5,11 +5,11 @@ import asyncio
 import os
 import time
 from datetime import datetime
-from ShasaBot import OWNER_ID
-from ShasaBot import TEMP_DOWNLOAD_DIRECTORY as path
-from ShasaBot import TEMP_DOWNLOAD_DIRECTORY
+from TG import OWNER_ID
+from TG import TEMP_DOWNLOAD_DIRECTORY as path
+from TG import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './ShasaBot/resources/shasa.jpg'
+water = './TG/resources/shasa.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -21,7 +21,7 @@ async def Prof(event):
     thumb = water
     message_id = event.message.id
     input_str = event.pattern_match.group(1)
-    the_plugin_file = "./ShasaBot/modules/{}.py".format(input_str)
+    the_plugin_file = "./TG/modules/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
      message_id = event.message.id
      await event.client.send_file(
@@ -36,7 +36,7 @@ async def Prof(event):
         await event.reply("No File Found!")
 
 
-from ShasaBot.events import load_module
+from TG.events import load_module
 import asyncio
 import os
 from datetime import datetime
