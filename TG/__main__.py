@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from ShasaBot import (
+from TG import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from ShasaBot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from ShasaBot.modules import ALL_MODULES
-from ShasaBot.modules.helper_funcs.chat_status import is_user_admin
-from ShasaBot.modules.helper_funcs.misc import paginate_modules
+from TG.modules import ALL_MODULES
+from TG.modules.helper_funcs.chat_status import is_user_admin
+from TG.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -74,38 +74,35 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg) `My name is` *Kristina*
-`I'm here to help you manage your groups! Hit` *📚Commands*   
+**Yoo!! [🤖](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg) \n**I'm Hinata bot**
+I'm here to help you manage your groups! **👨‍💻 Commands**
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Kristina To Your Group ➕️", url="t.me/MISS_KRISTINA_BOT?startgroup=true"),
+            text="👨‍💻 Take Me To Ur Group 👨‍💻", url="t.me/Hinata_Probot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="shasa_"),
+        InlineKeyboardButton(text="About", callback_data="Hinata_"),
         InlineKeyboardButton(
-            text="Support", url=f"https://t.me/KristinaSupportGroup"
+            text="🚑 Support 🚑", url=f"https://t.me/CoffinXsupport"
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Help 🆘", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Kristina🙋‍♀️](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg)
-`Click on the buttons below to get documentation about specific modules..`"""
+Hey !! i'm Hinata [🤖](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg)
+Click on the buttons below to know About me"""
 
 
-shasa_IMG = "https://telegra.ph/file/95a4e9bf8860446c7d150.jpg"
+TG_IMG = "https://telegra.ph/file/95a4e9bf8860446c7d150.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @DIPESH_XD \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """No Need To Donate Me!! Just Keep Supporting..🤗\n\n**A Project By Team Coffin**"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -118,7 +115,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("ShasaBot.modules." + module_name)
+    imported_module = importlib.import_module("TG.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -348,29 +345,29 @@ def help_button(update, context):
 @run_async
 def shasa_about_callback(update, context):
     query = update.callback_query
-    if query.data == "shasa_":
+    if query.data == "TG_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *kristina*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/xdipesh/MissKristina).
+            text=""" 👨‍💻 I'm ***Hinata***, a powerful group management bot built to help you manage your group easily.
+                 \n✘ `I can restrict users`.
+                 \n✘ `I can greet users with customizable welcome messages and even set a group's rules`.
+                 \n✘ `I have an advanced anti-flood system`.
+                 \n✘ `I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc`.
+                 \n✘ `I have a note keeping system, blacklists, and even predetermined replies on certain keywords`.
+                 \n✘ `I check for admins' permissions before executing any command and more stuffs`.
+                 \n\n_hinata's licensed under the GNU General Public License v3.0_
+                 \n**Soon We Will Public The Repo♥️**.
                  \n\nIf you have any question about Kristina, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="shasa_back")
+                    InlineKeyboardButton(text="Back", callback_data="hinata_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "shasa_back":
+    elif query.data == "hinata_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -383,21 +380,21 @@ def shasa_about_callback(update, context):
 @run_async
 def Source_about_callback(update, context):
     query = update.callback_query
-    if query.data == "source_":
+    if query.data == "support_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Kristina*
-                 \nHere is the [Source Code](https://github.com/xdipesh/MissKristina) .""",
+            text=""" Hi..🤗 I'm *hinata*
+                 \nHere is the [Support Group](https://t.me/coffinXsupport) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="Go Back", callback_data="support_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "source_back":
+    elif query.data == "support_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -432,7 +429,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "Contact me in PM to get the list of possible commands of hinata 🤖.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -681,7 +678,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 🤖")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
@@ -698,8 +695,8 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(shasa_about_callback, pattern=r"shasa_")
-    source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
+    about_callback_handler = CallbackQueryHandler(shasa_about_callback, pattern=r"TG_")
+    source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"support_")
 
     donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
