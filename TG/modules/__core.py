@@ -1,5 +1,5 @@
-from ShasaBot import telethn as tbot
-from ShasaBot.events import register
+from TG import telethn as tbot
+from TG.events import register
 import os
 import asyncio
 import os
@@ -9,7 +9,7 @@ from TG import OWNER_ID
 from TG import TEMP_DOWNLOAD_DIRECTORY as path
 from TG import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './TG/resources/shasa.jpg'
+water = './TG/resources/Can You Actually Make Money with Anime Blogging_ – MyAnime2go.jpeg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -33,7 +33,7 @@ async def Prof(event):
              reply_to=message_id,
          )
     else:
-        await event.reply("No File Found!")
+        await event.reply("ERROR!! No File Found!")
 
 
 from TG.events import load_module
