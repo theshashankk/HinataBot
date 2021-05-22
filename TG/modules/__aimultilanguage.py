@@ -66,10 +66,10 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("shasa AI Was Not Activated In This Chat")
+            await lel.edit("AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"shasa AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -119,7 +119,7 @@ async def hmm(client, message):
         result = result.replace("<\/a>", "</a>")
         pro = result
         try:
-            await shasa.send_chat_action(message.chat.id, "typing")
+            await TG.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError as e:
             print(e)
