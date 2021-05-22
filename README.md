@@ -1,3 +1,5 @@
+###### ɴᴏᴛᴇ :- ᴅᴏɴ'ᴛ ᴅᴇᴘʟᴏʏ ɴᴏᴡ ʙᴏᴛ ɪs ɪɴᴄᴏᴍᴘʟᴇᴛᴇ :-/
+
 [![GitHub issues](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/issues)
 [![GitHub Fork](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/fork)
 [![GitHub size](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/size)
