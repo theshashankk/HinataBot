@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/ShasaBot
-RUN git clone -b shiken https://github.com/MdNoor786/ShasaBot /root/ShasaBot
-WORKDIR /root/ShasaBot
+RUN git clone -b shiken https://github.com/TheShashankk/Hinatabot.git /root/TG
+WORKDIR /root/TG
 
 #Copy config file to /root/ShasaBott/ShasaBot
-COPY ./ShasaBot/sample_config.py ./ShasaBot/config.py* /root/ShasaBot/ShasaBot/
+COPY ./TG/sample_config.py ./TG/config.py* /root/TG/TG/
 
 ENV PATH="/home/bot/bin:$PATH"
 
