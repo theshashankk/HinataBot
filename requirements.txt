@@ -68,3 +68,5 @@ textblob
 nudepy
 
 motor
+
+hinata
