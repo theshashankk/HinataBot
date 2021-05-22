@@ -5,8 +5,8 @@ from telethon.utils import get_input_location
 import flag
 import html, os
 from countryinfo import CountryInfo
-from ShasaBot import telethn as borg
-from ShasaBot.events import register
+from TG import telethn as borg
+from TG.events import register
 
 
 @register(pattern="^/country (.*)")
@@ -79,7 +79,7 @@ async def msg(event):
 
     wiki = a.get("wiki")
 
-    caption = f"""<b><u>Information Gathered Successfully</b></u>
+    caption = f"""<b><u>Information Gathered Successfully via Hinata 👩‍💻</b></u>
 <b>
 Country Name:- {name}
 Alternative Spellings:- {hu}
@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By Shasa.</b>
+Gathered By Hinata 👩‍💻.</b>
 """
     
     
