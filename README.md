@@ -6,7 +6,8 @@
 [![GitHub star](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/stars)
 [![GitHub license](https://img.shields.io/github/license/theshashankk/HinataBot)](https://github.com/theshashankk/HinataBot/blob/main/LICENSE)
 
-![hinata](https://telegra.ph/file/8b3f98a96b83601ed9331.jpg)
+![hinata](https://user-images.githubusercontent.com/78837537/119225314-ad8d5380-bb20-11eb-9dfc-884938cf6f19.jpeg)
+)
 
 ## 𝙃𝙄𝙉𝘼𝙏𝘼 𝙍𝙊𝘽𝙊
 
