@@ -1,4 +1,4 @@
-from ShasaBot.mongo import client as db_x
+from TG.mongo import client as db_x
 
 lydia = db_x["CHATBOT"]
 talkmode = db_x["TALKMODE"]
