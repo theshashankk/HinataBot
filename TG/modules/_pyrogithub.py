@@ -1,11 +1,11 @@
 # © @Mr_Dark_Prince
 import aiohttp
 from pyrogram import filters
-from ShasaBot import pbot
-from ShasaBot.pyrogramee.errors import capture_err
+from TG import pbot
+from TG.pyrogramee.errors import capture_err
 
 
-__mod_name__ = "Github"
+__mod_name__ = "✘Github"
 
 
 @pbot.on_message(filters.command('github'))
@@ -35,16 +35,17 @@ async def github(_, message):
                 followers = result['followers']
                 following = result['following']
                 caption = f"""**Info Of {name}**
-**Username:** `{username}`
-**Bio:** `{bio}`
-**Profile Link:** [Here]({url})
-**Company:** `{company}`
-**Created On:** `{created_at}`
-**Repositories:** `{repositories}`
-**Blog:** `{blog}`
-**Location:** `{location}`
-**Followers:** `{followers}`
-**Following:** `{following}`"""
+**🙋Username:** `{username}`
+**☣️Bio:** `{bio}`
+**🔗Profile Link:** [Here]({url})
+**👨‍💻Company:** `{company}`
+**👾Created On:** `{created_at}`
+**📘Repositories:** `{repositories}`
+**🌐Blog:** `{blog}`
+**🌍Location:** `{location}`
+**👀Followers:** `{followers}`
+**👀Following:** `{following}`
+**👨‍💻 Results found via `Hinata Bot`"""              
             except Exception as e:
                 print(str(e))
                 pass
