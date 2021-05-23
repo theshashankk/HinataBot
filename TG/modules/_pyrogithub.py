@@ -7,6 +7,12 @@ from TG.pyrogramee.errors import capture_err
 
 __mod_name__ = "✘Github"
 
+__help__ = """
+𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 
+- `/github`
+
+ex- /github theshashankk 
+"""
 
 @pbot.on_message(filters.command('github'))
 @capture_err
