@@ -20,9 +20,9 @@ import dateparser
 from telethon import *
 from telethon.tl.types import ChatBannedRights
 
-from ShasaBot.events import register
-from ShasaBot.mongo import db
-from ShasaBot import telethn as tbot
+from TG.events import register
+from TG.mongo import db
+from TG import telethn as tbot
 
 nightmod = db.nightmode
 
@@ -99,7 +99,7 @@ async def profanity(event):
             chats = nightmod.find({})
             for c in chats:
                 if event.chat_id == c["id"]:
-                    await event.reply("Nightmode is already activated for this chat.")
+                    await event.reply("Nightmode 🌃 is already activated for this chat.")
                     return
             nightmod.insert_one(
                 {
