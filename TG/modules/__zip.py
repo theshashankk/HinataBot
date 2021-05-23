@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from ShasaBot import TEMP_DOWNLOAD_DIRECTORY
-from ShasaBot import telethn as client
-from ShasaBot.events import register
+from TG import TEMP_DOWNLOAD_DIRECTORY
+from TG import telethn as client
+from TG.events import register
 
 
 async def is_register_admin(chat, user):
@@ -43,7 +43,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂"
+                "Hey, You are not admin. You can't use this command, But you can use in my pm 🤗"
             )
             return
 
