@@ -84,7 +84,7 @@ buttons = [
             text="👨‍💻 Take Me To Ur Group 👨‍💻", url="t.me/Hinata_Probot?starhinataBotroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="Hinata_"),
+        InlineKeyboardButton(text="About", callback_data="hinataBot_"),
         InlineKeyboardButton(
             text="🚑 Support 🚑", url=f"https://t.me/CoffinXsupport"
         ),
