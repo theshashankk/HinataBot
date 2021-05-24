@@ -14,7 +14,7 @@
 
 ## 𝙷𝙾𝚆 𝚃𝙾 𝙷𝙾𝚂𝚃 𝚃𝙷𝙰 𝙱𝙾𝚃 🤖
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/theshashankk/HinataBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/theshashankk/HinataBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## 𝚂𝙴𝙻𝙵 𝙷𝙾𝚂𝚃 𝙵𝙾𝚁 𝙳𝙴𝚅 👨‍💻
 
