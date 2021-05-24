@@ -38,7 +38,7 @@ pyrate-limiter
 cachetools
 ujson
 pretty_errors
-hinataBotCrypto
+TGCrypto
 Pyrogram
 youtube-dl
 youtube_search_python
@@ -67,6 +67,6 @@ better_profanity
 textblob 
 nudepy
 
-motor
 
+Motor
 
