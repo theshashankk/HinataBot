@@ -113,10 +113,7 @@ def dev_plus(func):
             except:
                 pass
         else:
-            update.effective_message.reply_text(
-                "This is a developer restricted command."
-                " You do not have permissions to run this."
-            )
+            await cb.answer("this Plugin Is only for dev.\nYou Dont Have Permission to run this command", show_alert=True)
 
     return is_dev_plus_func
 
