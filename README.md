@@ -32,6 +32,5 @@ $ python(3) -m hinataBot
 
 ## 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 
 
-#### • ᴋʀɪsᴛɪɴᴀ ʙᴏᴛ   »»  <a href="https://github.com/xdipesh/MissKristina" alt="Miss Kristina"> <img src="https://img.shields.io/badge/kristina-800080?logo=github" /></a>
 
 #### • sʜᴀsᴀ ʙᴏᴛ   »»  <a href="https://github.com/Mdnoor786/hinataBot-1" alt="Telebot"> <img src="https://img.shields.io/badge/hinata%20bot-800080?logo=github" /></a>
