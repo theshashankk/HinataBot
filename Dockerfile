@@ -26,8 +26,8 @@ RUN apt update && apt upgrade -y && \
     neofetch \
     php-pgsql \
     python3-lxml \
-    posresql \
-    posresql-client \
+    postgresql \
+    postgresql-client \
     python3-psycopg2 \
     libpq-dev \
     libcurl4-openssl-dev \
