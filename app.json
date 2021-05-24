@@ -16,7 +16,7 @@
          "options": {
             "version": "12"
          },
-         "plan": "heroku-poshinataBotresql"
+         "plan": "heroku-postgresql"
       }
    ],
    "env": {
