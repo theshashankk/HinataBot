@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**Yoo!! [🤖](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg) \n**I'm Hinata bot**
+**Yoo!! [🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg) \n**I'm Hinata bot**
 I'm here to help you manage your groups! **👨‍💻 Commands**
 """
 
@@ -96,11 +96,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey !! i'm Hinata [🤖](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg)
+Hey !! i'm Hinata [🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg)
 Click on the buttons below to know About me"""
 
 
-hinataBot_IMG = "https://telegra.ph/file/95a4e9bf8860446c7d150.jpg"
+hinataBot_IMG = "https://telegra.ph/file/b9cf8bd1825447c325267.jpg"
 
 DONATE_STRING = """No Need To Donate Me!! Just Keep Supporting..🤗\n\n**A Project By Team Coffin**"""
 
