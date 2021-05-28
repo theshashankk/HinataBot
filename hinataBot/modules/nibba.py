@@ -4,7 +4,7 @@ from datetime import datetime
 from pyrogram import filters
 
 from hinataBot import app
-from HinataBot.pyrogramee.decorators.errors import capture_err
+from hinataBot.pyrogramee.decorators.errors import capture_err
 from hinataBot.utils.dbfunc import get_couple, save_couple
 
 __mod_name__ = "Gay"
