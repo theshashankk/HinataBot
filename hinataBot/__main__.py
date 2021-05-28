@@ -84,7 +84,7 @@ buttons = [
             text="👨‍💻 𝚃𝙰𝙺𝙴 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 👨‍💻", url="t.me/Hinata_Probot?starhinataBotroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="hinataBot_"),
+        InlineKeyboardButton(text="About 👀", callback_data="hhinataBot_"),
         InlineKeyboardButton(
             text="🚑 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 🚑", url=f"https://t.me/CoffinXsupport"
         ),
@@ -362,7 +362,7 @@ def hinata_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_back")
+                    InlineKeyboardButton(text="Back", callback_data="hinata_back")
                  ]
                 ]
             ),
