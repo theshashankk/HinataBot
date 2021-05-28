@@ -1,8 +1,14 @@
 [![hinata](https://img.shields.io/badge/A%20Bot%20By%20Team%20Coffin-blue?style=for-the-badge&logo=telegram)](t.me/Coffinxsupport)
 
 
-<a class="github-button" href="https://github.com/theshashankk/hinatabot/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Fork theshashankk/hinatabot on GitHub">Fork</a>
-
+<p align="center">
+    <a href="https://app.codacy.com/manual/theshashankk/Hinatabot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/theshashankk/Hinatabot"> <img src="https://img.shields.io/github/repo-size/theshashankk/hinatabot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/theshashankk/Hinatabot/commits/theshashankk"> <img src="https://img.shields.io/github/last-commit/theshashankk/hinatabot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/theshashankk/hinatabot/issues"> <img src="https://img.shields.io/github/issues/theshashankk/hinatabot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/theshashankk/hinatabot/network/members"> <img src="https://img.shields.io/github/forks/theshashankk/hinatabot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+</p>
 
 ![hinata](https://user-images.githubusercontent.com/78837537/119931808-b6a67680-bf9f-11eb-91b3-8d1662415a12.jpg)
 
