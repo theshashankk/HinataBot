@@ -1,7 +1,7 @@
 [![hinata](https://img.shields.io/badge/A%20Bot%20By%20Team%20Coffin-blue?style=for-the-badge&logo=telegram)](t.me/Coffinxsupport)
 
 [![GitHub issues](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/issues)
-[![GitHub Fork](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/fork)
+<a class="github-button" href="https://github.com/theshashankk/hinatabot/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Fork theshashankk/hinatabot on GitHub">Fork</a>
 [![GitHub size](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/size)
 [![GitHub star](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/stars)
 [![GitHub license](https://img.shields.io/github/license/theshashankk/HinataBot)](https://github.com/theshashankk/HinataBot/blob/main/LICENSE)
