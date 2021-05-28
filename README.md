@@ -1,4 +1,4 @@
-[![hinata](https://img.shields.io/badge/A%20Bot%20By%20Team%20Coffin-blue?style=for-the-badge&logo=telegram)(t.me/CoffinXsupport)]
+[![hinata](https://img.shields.io/badge/A%20Bot%20By%20Team%20Coffin-blue?style=for-the-badge&logo=telegram)
 
 [![GitHub issues](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/issues)
 [![GitHub Fork](https://img.shields.io/github/issues/theshashankk/HinataBot?logo=telethon&style=flat-square)](https://github.com/theshashankk/HinataBot/fork)
