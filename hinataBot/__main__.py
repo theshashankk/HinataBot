@@ -74,30 +74,30 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**Yoo!! [🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg) \n**I'm Hinata bot**
-I'm here to help you manage your groups! **👨‍💻 Commands**
+**𝐘𝐎𝐎!! [🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg) \n**𝐈'𝐌 𝐇𝐈𝐍𝐀𝐓𝐀 𝐁𝐎𝐓**
+𝐈'𝐌 𝐇𝐄𝐑𝐄 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏 𝐘𝐎𝐔 𝐈𝐍 𝐌𝐀𝐍𝐀𝐆𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏𝐒! **👨‍💻 Commands**
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="👨‍💻 Take Me To Ur Group 👨‍💻", url="t.me/Hinata_Probot?starhinataBotroup=true"),
+            text="👨‍💻 𝚃𝙰𝙺𝙴 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 👨‍💻", url="t.me/Hinata_Probot?starhinataBotroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="hinataBot_"),
         InlineKeyboardButton(
-            text="🚑 Support 🚑", url=f"https://t.me/CoffinXsupport"
+            text="🚑 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 🚑", url=f"https://t.me/CoffinXsupport"
         ),
     ],
     [
-        InlineKeyboardButton(text="Help 🆘", callback_data="help_back"),
+        InlineKeyboardButton(text="𝙷𝙴𝙻𝙿 🆘", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey !! i'm Hinata [🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg)
-Click on the buttons below to know About me"""
+𝙃𝙀𝙔[🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg)
+𝙲𝙻𝙸𝙲𝙺 𝙱𝙴𝙻𝙾𝚆 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚃𝙾 𝙺𝙽𝙾𝚆 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙾𝚁 𝙷𝙸𝚃 /help"""
 
 
 hinataBot_IMG = "https://telegra.ph/file/b9cf8bd1825447c325267.jpg"
@@ -187,7 +187,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="hinata_back")]]
+                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -301,7 +301,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Back", callback_data="help_back)]]
                 ),
             )
 
@@ -355,14 +355,14 @@ def hinata_about_callback(update, context):
                  \n✘ `I have a note keeping system, blacklists, and even predetermined replies on certain keywords`.
                  \n✘ `I check for admins' permissions before executing any command and more stuffs`.
                  \n\n_hinata's licensed under the GNU General Public License v3.0_
-                 \n**Soon We Will Public The Repo♥️**.
+                 \n**𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 [𝙷𝙸𝙽𝙰𝚃𝙰 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 💾](https://github.com/theshashankk/HinataBot)**.
                  \n\nIf you have any question about Hinata, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="hinata_back")
+                    InlineKeyboardButton(text="Back", callback_data="stngs_back)
                  ]
                 ]
             ),
