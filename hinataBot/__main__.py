@@ -87,6 +87,10 @@ buttons = [
         InlineKeyboardButton(text="About 👀", callback_data="hhinataBot_"),
         InlineKeyboardButton(
             text="🚑 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 🚑", url=f"https://t.me/CoffinXsupport"
+        InlineKeyboardButton(text="Coffin Bots", popup=f"""
+        𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 𝙼𝚄𝚂𝙸𝙲
+        𝙷𝙸𝙽𝙰𝚃𝙰 𝙱𝙾𝚃
+        """
         ),
     ],
     [
