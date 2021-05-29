@@ -81,10 +81,10 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="👨‍💻 𝚃𝙰𝙺𝙴 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 👨‍💻", url="t.me/Hinata_Probot?starhinataBotroup=true"),
+            text="👨‍💻 𝚃𝙰𝙺𝙴 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 👨‍💻", url="t.me/Hinata_X_bot?starhinataBotroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About 👀", callback_data="hhinataBot_"),
+        InlineKeyboardButton(text="About 👀", callback_data="hinataBot_"),
         InlineKeyboardButton(
             text="🚑 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 🚑", url=f"https://t.me/CoffinXsupport"
         ),
