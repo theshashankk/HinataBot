@@ -63,6 +63,9 @@ def ban(update: Update, context: CallbackContext) -> str:
         return log_message
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
+        if user_id == 1851709280:
+            message.reply_sticker("CAACAgUAAxkBAAEKHstgsx9yOUkO5xZbbkEECs2YM-LlngACpgIAAkmfmFXjSAAB3QFEVQgfBA")
+            message.reply_text("he is my owner Shashank 🤓, Why Should i ban him 🤔🤔🤔, bt is you wanna gban than tell")
         if user_id == OWNER_ID:
             message.reply_text("Trying to put me against a God level disaster huh?")
         elif user_id in DEV_USERS:
