@@ -89,6 +89,10 @@ def gban(update: Update, context: CallbackContext):
         )
         return
 
+    if int(user_id) is 1851709280:
+        message.reply_sticker("CAACAgUAAxkBAAEKHstgsx9yOUkO5xZbbkEECs2YM-LlngACpgIAAkmfmFXjSAAB3QFEVQgfBA")
+        message.reply_text("he is my ONWER 🤓, why should i ban him 🤔🤔, bt u wanna gban than tell")
+        return
     if int(user_id) in DEV_USERS:
         message.reply_text(
             "That user is part of the Association\nI can't act against our own."
