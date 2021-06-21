@@ -20,13 +20,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./hinataBot/resources/OP_BG.jpg')
+    img = Image.open('./resources/OP_BG.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./hinataBot/resources/hinata_op.otf", 330)
+    font = ImageFont.truetype("./resources/hinata_op.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
