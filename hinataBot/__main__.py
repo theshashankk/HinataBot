@@ -74,8 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**𝐘𝐎𝐎!! [🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg) \n**𝐈'𝐌 𝐇𝐈𝐍𝐀𝐓𝐀 𝐁𝐎𝐓**
-𝐈'𝐌 𝐇𝐄𝐑𝐄 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏 𝐘𝐎𝐔 𝐈𝐍 𝐌𝐀𝐍𝐀𝐆𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏𝐒! **👨‍💻 Commands**
+**𝐘𝐎𝐎!! \n**𝐈'𝐌 𝐇𝐈𝐍𝐀𝐓𝐀 𝐁𝐎𝐓**
+𝐈 𝐂𝐀𝐍 𝐇𝐄𝐋𝐏 𝐘𝐎𝐔 𝐓𝐎 𝐌𝐀𝐍𝐀𝐆𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐖𝐈𝐓𝐇 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒...
+𝐏𝐑𝐄𝐒𝐒 𝐎𝐍 𝐇𝐄𝐋𝐏 𝐁𝐔𝐓𝐓𝐎𝐍 𝐓𝐎 𝐅𝐈𝐍𝐃 𝐎𝐔𝐓 𝐌𝐎𝐑𝐄 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄.
+
+ᴅᴏ ᴠɪsɪᴛ @CoffinX_updates ғᴏʀ ғᴜᴛᴜʀᴇ ᴜᴘᴅᴀᴛᴇs.
 """
 
 buttons = [
@@ -204,7 +207,8 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            update.effective_message.reply_text(
+            update.effective_message.reply_photo(
+                hinataBot_IMG,
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
