@@ -99,7 +99,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝙃𝙀𝙔[🤖](https://telegra.ph/file/b9cf8bd1825447c325267.jpg)
+𝙃𝙀𝙔 🤖
 𝙲𝙻𝙸𝙲𝙺 𝙱𝙴𝙻𝙾𝚆 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚃𝙾 𝙺𝙽𝙾𝚆 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙾𝚁 𝙷𝙸𝚃 /help"""
 
 
