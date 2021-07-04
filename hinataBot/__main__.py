@@ -69,26 +69,12 @@ PM_START_TEXT = """
 ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք ʍɛ ɢʀօʊք ǟռɖ ɢɨʍʍɛ ǟ ƈɦǟռƈɛ ȶօ ʍǟռǟɢɛ ʏօʊʀ ɢʀօʊք!`
 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴜɢɪɴs ʜɪᴛ `ʜᴇʟᴘ`
 """
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="Aᴅᴅ ᴍᴇ ɪɴ ᴜʀ ɢʀᴏᴜᴘ 🌝", url="t.me/Hinata_X_bot?startgroup=true"),
-    ],
-     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ ʜɪɴᴀᴛᴀ 🤔", callback_data="hinata_"),
-        InlineKeyboardButton(
-            text="Mʏ sɪᴛᴇ ☢️", url=f"http://evilbotz.art.blog"
-        ),
-     ],
-     [  
-        InlineKeyboardButton(text="🚑 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🚑", url="https://t.me/EVIL_SUPPORT_CHAT"),
-        InlineKeyboardButton(text="Rᴇᴘᴏsɪᴛᴏʀʏ 💜", url="https://github.com/shrvan42/EvilBot"),
-    ], 
-
-    [
-        InlineKeyboardButton(text="ʜᴇʟᴘ 💬", callback_data="help_back"),
-    ],
-]
+buttons = [[custom.Button.inline("💡 Hinata Ping »»", data="pkng")]]
+buttons += [[custom.Button.inline("💬 Open help menu »»", data="menu")]]
+buttons += [[Button.url("🚑 Support chat 🚑 »»", "t.me/CoffinXsupport"), Button.url("🚑 Hinata Updates 🚑", "t.me/CoffinX_updates")]]
+buttons += [[Custom.Buttom.inline("🤔 About Hinata", data="hinata_"
+buttons += [[Button.url("🔰 Creator", "t.me/ShashankxD")]]
+buttons += [[Button.url("🙋 take me in ur group", "t.me/Hinata_X_bot?startgroup=true")]]
 HELP_STRINGS = """
 `𝚈𝙾𝙾!.. 𝙸'𝙼` *𝙷𝙸𝙽𝙰𝚃𝙰* [•_•]
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
@@ -309,18 +295,19 @@ def evil_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_My licensed under the GNU General Public License v3.0_ 
-                      here is this [Repository](https://github.com/shrvan42/EvilBot) .""",
+                      here is this [Repository](https://github.com/theshashankk/HinataBot/tree/main/hinataBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="evil_back")
+                      InlineKeyboardButton(text="Terms & conditions" callback_data="hinata_terms")
+                      InlineKeyboardButton(text="Back", callback_data="hinata_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "evil_back":
+    elif query.data == "hinata_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -333,8 +320,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hey!.. I'm *Evil Robot*
-                 \nHere is the [Source Code](https://github.com/shrvan42/EvilBot) .""",
+            text=""" here is hinata source code 🔰[repo](https://github.com/theshashankk/HinataBot)🔰""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -560,7 +546,7 @@ def donate(update: Update, context: CallbackContext):
         update.effective_message.reply_text(
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1851709280 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
