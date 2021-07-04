@@ -629,7 +629,7 @@ def main():
         telethn.run_until_disconnected()
     updater.idle()
 if __name__ == "__main__":
-    LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    LOGGER.info("All plugins loaded of hinata bot!!: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
