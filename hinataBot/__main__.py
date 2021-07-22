@@ -374,8 +374,6 @@ def hinata_about_callback(update, context):
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=False,
         )
 
 
