@@ -107,10 +107,10 @@ HELP_STRINGS = """
 𝙲𝙻𝙸𝙲𝙺 𝙱𝙴𝙻𝙾𝚆 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚃𝙾 𝙺𝙽𝙾𝚆 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙾𝚁 𝙷𝙸𝚃 /help"""
 
 
-hinataBot_IMG = "https://telegra.ph/file/b9cf8bd1825447c325267.jpg"
 
 DONATE_STRING = """No Need To Donate Me!! Just Keep Supporting..🤗\n\n**A Project By Team Coffin**"""
 
+LWDA_PIC = "https://telegra.ph/file/2beeac7183c933ae39022.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
