@@ -76,23 +76,28 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `ʏօօ` [👿](https://telegra.ph/file/2beeac7183c933ae39022.jpg) `ɨ'ʍ` *Hɪɴᴀᴛᴀ*
 **ɨ ƈǟռ ǟʍǟʐɛ ʏօʊ աɨȶɦ ʍʏ ǟʐʍǟʐɨռɢ ʄɛǟȶʊɛʀֆ..
-ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք ʍɛ ɢʀօʊք ǟռɖ ɢɨʍʍɛ ǟ ƈɦǟռƈɛ ȶօ ʍǟռǟɢɛ ʏօʊʀ ɢʀօʊք!
-ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴜɢɪɴs ʜɪᴛ ʜᴇʟᴘ**
+ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք ʍɛ ɢʀօʊք ǟռɖ ɢɨʍʍɛ ǟ ƈɦǟռƈɛ ȶօ ʍǟռǟɢɛ ʏօʊʀ ɢʀօʊք!**
+
+`ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴜɢɪɴs ʜɪᴛ ʜᴇʟᴘ`
 """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="👨‍💻 𝚃𝙰𝙺𝙴 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 👨‍💻", url="t.me/Hinata_X_bot?startgroup=true"),
+        InlineKeyboardButton(text="About Hinata ✌️", callback_data="https://t.me/Infinity_BOTs"),
+        InlineKeyboardButton(text="Owner 💜", url="t.me/Albertt_xd"),
     ],
     [
-        InlineKeyboardButton(text="About 👀", callback_data="hinataBot_"),
         InlineKeyboardButton(
-            text="🚑 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 🚑", url=f"https://t.me/CoffinXsupport"
+            text="Help menu 🚧", callback_data="menu"
+        ),
+        InlineKeyboardButton (
+            text="📜 Source code", url="https://github.com/theshashankk/HinataBot"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝙷𝙴𝙻𝙿 🆘", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="🙋 Add me to your group 🙋", url="t.me/Hinata_X_bot?startgroup=true"
+        ),
     ],
 ]
 
