@@ -376,7 +376,7 @@ def hinata_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "hinata_bac":
+    elif query.data == "hinata_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -410,17 +410,7 @@ def Source_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-@run_async
-def Advanced(update, context):
-    query = update.callback_query
-    if query.data == "hinata_back":
-        query.message.edit_text(
-            PM_START_TEXT,
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(buttons),
-        )
-        
+
 @run_async
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
