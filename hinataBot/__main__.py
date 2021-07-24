@@ -83,7 +83,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Hinata ✌️", callback_data="hinataBot_"),
+        InlineKeyboardButton(text="About Hinata ✌️", callback_data="hinata_"),
         InlineKeyboardButton(text="Owner 💜", url="t.me/Albertt_xd"),
     ],
     [
